@@ -1,4 +1,4 @@
-const TEXT_ELEMENT = "TEXT ELEMENT";
+export const TEXT_ELEMENT = "TEXT ELEMENT";
 
 export function createElemtn(type, config, ...args) {
     const props = Object.assign({}, config);
